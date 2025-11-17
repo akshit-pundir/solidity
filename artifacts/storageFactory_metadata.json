@@ -13,8 +13,51 @@
 				"type": "function"
 			},
 			{
-				"inputs": [],
-				"name": "simpleStorageContract",
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_simpleStorageIdx",
+						"type": "uint256"
+					}
+				],
+				"name": "sfGet",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_simpleStorageIdx",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_newSimpleStorageNum",
+						"type": "uint256"
+					}
+				],
+				"name": "sfStore",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "simpleStorageContractList",
 				"outputs": [
 					{
 						"internalType": "contract myContract",
@@ -54,19 +97,19 @@
 	},
 	"sources": {
 		"contracts/simpleStorage.sol": {
-			"keccak256": "0x18b762f3afbce8945168843f3a3f2829b3e6ec0543e56ccf306998c8b629a274",
+			"keccak256": "0xb8f500783a3eccd973e1357592070c4468e2175355c8ccfb86066ab1acb8ff7a",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://4d1476cb538d456ec0750b994ac0133e2da1c77aacf5b83fecc9267dfc8e4b51",
-				"dweb:/ipfs/QmbcM5MJpo4AEgQ32TRvdU2kwmug3f1zzxPWAnyqKeZfLR"
+				"bzz-raw://50543c5d4c59d7682209740d3f284e3ddf753996e40ead93a28b734ff5cdbce5",
+				"dweb:/ipfs/QmQ7s5X8atZrgrrvd7gHq1fm18uww13NCabq1JRAvUVb3V"
 			]
 		},
 		"contracts/storageFactory.sol": {
-			"keccak256": "0x53ca422ce1d94f3b1a175d615d52486003ceab84c8a9615872669f80b1b0cbb7",
+			"keccak256": "0x37d56f45afe7360c9c7e92451b6e48291a46a21fb32c41be8dc197679eb2761e",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://1a476b23a72c384df9839064a0abed89a32c1af8a28d31d98999f3fe256f64b2",
-				"dweb:/ipfs/QmUsEYU1LFXLH3DdkVZ3DgYCdi8HXFZ1h4DAdWwu4NLcQb"
+				"bzz-raw://03fb357a807879d67fb68fa214f7f3c79cfc2c8845b3d56ba2dd24464efb6311",
+				"dweb:/ipfs/QmZ51qP6UtvW8JpNuRPxbSuSkkXfeJwbM2apa3cD7Ayq1e"
 			]
 		}
 	},
