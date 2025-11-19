@@ -97,19 +97,19 @@
 	},
 	"sources": {
 		"contracts/simpleStorage.sol": {
-			"keccak256": "0xb8f500783a3eccd973e1357592070c4468e2175355c8ccfb86066ab1acb8ff7a",
+			"keccak256": "0x0da9a41a2f1438b93d783ad5ad2c8258e47718d4ad5d89d280654482ad699e1c",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://50543c5d4c59d7682209740d3f284e3ddf753996e40ead93a28b734ff5cdbce5",
-				"dweb:/ipfs/QmQ7s5X8atZrgrrvd7gHq1fm18uww13NCabq1JRAvUVb3V"
+				"bzz-raw://833923a825c544c5593778f466b55097f9c743416f81eb40f3f9d21ae5c19fe4",
+				"dweb:/ipfs/QmXsieYZhD333S3ZNwufzDp6oZewuzjHqyvrwW9nrWg13i"
 			]
 		},
 		"contracts/storageFactory.sol": {
-			"keccak256": "0x37d56f45afe7360c9c7e92451b6e48291a46a21fb32c41be8dc197679eb2761e",
+			"keccak256": "0x895e0e068fa834eb663211a623f83c87b1e3112026e7ad46dd9c0189287fbb9d",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://03fb357a807879d67fb68fa214f7f3c79cfc2c8845b3d56ba2dd24464efb6311",
-				"dweb:/ipfs/QmZ51qP6UtvW8JpNuRPxbSuSkkXfeJwbM2apa3cD7Ayq1e"
+				"bzz-raw://90abb30ee27b759d28d3e92505e11e96b3d1cd54d5f49c2731ea64e5b4bab893",
+				"dweb:/ipfs/QmYY8xB8yrdtzQdWs4tZkQStsMbYdf1EjhZuQEAAgfyh3D"
 			]
 		}
 	},

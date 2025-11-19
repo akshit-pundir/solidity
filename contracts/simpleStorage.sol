@@ -18,7 +18,7 @@ contract myContract {
 
     mapping(string => uint256) public nameToFavNumber;    
 
-    function store(uint256 _favNumber) public {
+    function store(uint256 _favNumber) public virtual {
         myfavNumber = _favNumber;
     }
     

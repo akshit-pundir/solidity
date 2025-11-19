@@ -83,7 +83,7 @@
 				"inputs": [
 					{
 						"internalType": "uint256",
-						"name": "_favNumber",
+						"name": "_newNumber",
 						"type": "uint256"
 					}
 				],
@@ -106,7 +106,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/simpleStorage.sol": "myContract"
+			"contracts/addFiveStorage.sol": "addFiveStorage"
 		},
 		"evmVersion": "shanghai",
 		"libraries": {},
@@ -120,6 +120,14 @@
 		"remappings": []
 	},
 	"sources": {
+		"contracts/addFiveStorage.sol": {
+			"keccak256": "0xadc3aa3ad795649c4345c6893eccbfd1a4cebc6a1a3e19815c6f66afd854fbdd",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://07667cdb7aa6b8831d5ca7105807a80343ace953561af8314fcea20d55709643",
+				"dweb:/ipfs/QmamBuLPWk3mtbSiEtpD4hf7wHNdfAacdmCmytxmMrsGcW"
+			]
+		},
 		"contracts/simpleStorage.sol": {
 			"keccak256": "0x0da9a41a2f1438b93d783ad5ad2c8258e47718d4ad5d89d280654482ad699e1c",
 			"license": "MIT",
